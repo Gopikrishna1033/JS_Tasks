@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background: linear-gradient(135deg,#153677,#4e085f);
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+.todo{
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    background: #fff;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.todo h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    background: rgba(91, 90, 90, 0.37);
+    border-radius: 30px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 20px;
+    font-size: 16px;
+}
+button{
+    min-height: 56px;
+    min-width: 20%;
+    border: none;
+    border-radius: 30px;
+    background-color:orangered;
+    cursor: pointer;
+}
+.list_container {
+    list-style-type: none;
+    padding: 0;
+}
+.list_container ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+.list_container ul box-icon {
+    position: absolute;
+    margin-left: 30%;
+    cursor: pointer;
+}
